@@ -10,8 +10,15 @@ public class RandNumGuesser
         {
             System.out.print("Enter a number (1-10): ");
             Scanner scan = new Scanner(System.in);
-    
-            int user = scan.nextInt();
+
+            try
+            {
+                int user = scan.nextInt();
+            }
+            catch (Exception e)
+            {
+                System.out.println("Something went wrong");
+            }
             int computer = (int)(Math.random() * 10) + 1; 
     
             if (user == computer)
