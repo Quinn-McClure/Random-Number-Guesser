@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch RandNumGuesser",
+            "request": "launch",
+            "mainClass": "RandNumGuesser",
+            "projectName": "Random-Number-Guesser_7d7f702c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "args": "projects.rtf",
+            "mainClass": ""
+        }
+    ]
+}
