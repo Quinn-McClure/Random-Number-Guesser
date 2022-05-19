@@ -1,4 +1,7 @@
 import java.util.Scanner;
+
+import javax.lang.model.util.ElementScanner6;
+
 import java.util.Random;
 
 public class RandNumGuesser 
@@ -37,6 +40,12 @@ public class RandNumGuesser
                 else if (decision.equals("p"))
                 {
                     TF = true;
+                }
+                else 
+                {
+                    System.out.println("You have input '" + decision + "'");
+                    System.out.println("The program will terminate");
+                    TF = false;
                 }
             }
             catch (Exception e)
