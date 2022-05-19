@@ -1,9 +1,5 @@
 import java.util.Scanner;
 
-import javax.lang.model.util.ElementScanner6;
-
-import java.util.Random;
-
 public class RandNumGuesser 
 {
     public static void main(String args[])
